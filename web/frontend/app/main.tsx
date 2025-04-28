@@ -19,7 +19,7 @@ export default function Main() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-red">
       <div className="relative flex items-center">
-        <div className="absolute right-0 top-0 text-gray-500 pt-[172px] pr-[17px] text-[0.78rem] scale-x-[1.05] font-notojp tabular-nums proportional-nums">
+        <div className="absolute right-0 top-0 text-gray-500 pt-[172px] pr-[17px] text-[0.8rem] scale-x-[1.03] font-notojp tabular-nums proportional-nums">
           {now}
         </div>
         <Image
