@@ -23,7 +23,7 @@ export default function Main() {
           {now}
         </div>
         <Image
-          src="/images/card-test.jpg"
+          src="/images/card.jpg"
           alt="image"
           width={395}
           height={1400}
