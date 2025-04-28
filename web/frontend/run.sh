@@ -1,0 +1,1 @@
+npm update && npm upgrade && npm run build && npm run start

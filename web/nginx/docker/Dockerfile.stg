@@ -1,0 +1,8 @@
+FROM nginx:latest
+
+EXPOSE 80
+
+COPY ./config_stg /etc/nginx/conf.d
+#COPY ./log /var/log/nginx
+
+CMD ["nginx", "-g", "daemon off;"]

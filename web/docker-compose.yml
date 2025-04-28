@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  web:
+    image: nginx:latest
+    container_name: web
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/config:/etc/nginx/conf.d
+      - ./nginx/cert:/etc/nginx/cert
+      - ./nginx/log:/var/log/nginx
+    environment:
+      TZ: Asia/Tokyo
+    depends_on:
+      - app
+
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./frontend:/usr/src
+      - /usr/src/node_modules
+    working_dir: /usr/src
+    command: bash -c "npm run dev"
+    environment:
+      - APP_ENV=development
+      - WATCHPACK_POLLING=true
+      - PORT=3000
+      - HOST=0.0.0.0
+      - TZ=Asia/Tokyo
+    ports:
+      - 3000:3000
