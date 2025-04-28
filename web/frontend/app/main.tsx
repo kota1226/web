@@ -17,15 +17,15 @@ export default function Main() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen m-0 p-0">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-red">
       <div className="relative flex items-center">
-        <div className="absolute right-0 top-0 text-gray-500 pt-[158px] pr-[20px] text-[0.65rem] scale-x-[1.15] font-notojp tabular-nums proportional-nums">
+        <div className="absolute right-0 top-0 text-gray-500 pt-[167px] pr-[20px] text-[0.7rem] scale-x-[1.12] font-notojp tabular-nums proportional-nums">
           {now}
         </div>
         <Image
           src="/images/card-test.jpg"
           alt="image"
-          width={355}
+          width={375}
           height={1400}
           quality={100}
           priority
