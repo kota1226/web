@@ -17,10 +17,7 @@ export default function Main() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-red">
-      {/* <header className="w-full max-w-3xl mb-8">
-        <h1 className="text-4xl font-bold text-center">Next.js テストページ</h1>
-      </header> */}
+    <div className="flex flex-col justify-center items-center min-h-screen m-0 p-0">
       <div className="relative flex items-center">
         <div className="absolute right-0 top-0 text-gray-500 pt-[158px] pr-[20px] text-[0.65rem] scale-x-[1.15] font-notojp tabular-nums proportional-nums">
           {now}
