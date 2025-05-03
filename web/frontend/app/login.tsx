@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 // import { useBasicAuth } from "@/_hooks/UseBasicAuth";
@@ -13,7 +13,6 @@ export interface LoginProps {
 export default function Login({}: LoginProps) {
   //   useBasicAuth();
   const router = useRouter();
-  const searchParams = useSearchParams();
   //   const isMobile = useIsMobile();
   const [formData, setFormData] = useState({
     username: "",
