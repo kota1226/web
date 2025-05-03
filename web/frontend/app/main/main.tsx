@@ -1,5 +1,5 @@
 "use client";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import dayjs from "dayjs";
