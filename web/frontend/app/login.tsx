@@ -74,7 +74,7 @@ export default function Login({}: LoginProps) {
                       }
                       placeholder=" "
                       autoComplete="off"
-                      className="font-montserrat font-bold text-base lg:text-sm text-color-base tracking-widest bg-color-white-base 
+                      className="font-montserrat font-bold text-xs lg:text-sm text-color-base tracking-widest bg-color-white-base 
                                                         focus:outline-none border-2 rounded-md border-gray-300 w-full pt-4 pb-2 px-3 block peer"
                     />
                   </div>
@@ -95,7 +95,7 @@ export default function Login({}: LoginProps) {
                       }
                       placeholder=" "
                       autoComplete="off"
-                      className="font-montserrat font-bold text-base lg:text-sm text-color-base tracking-widest bg-color-white-base 
+                      className="font-montserrat font-bold text-sm lg:text-sm text-color-base tracking-widest bg-color-white-base 
                                                         focus:outline-none border-2 rounded-md border-gray-300 w-full pt-4 pb-2 px-3 block peer"
                     />
                   </div>
