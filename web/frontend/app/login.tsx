@@ -49,7 +49,7 @@ export default function Login({}: LoginProps) {
           className="flex flex-col justify-center items-center rounded-3xl bg-color-white-base shadow-right-bottom w-full lg:w-[1200px] h-auto min-h-auto lg:h-[750px] lg:min-h-[750px] bg-opacity-70"
         >
           <div className="flex flex-col justify-start items-center w-full lg:w-[1000px] lg:h-[580px] px-2 pt-14 lg:pt-0">
-            <div className="flex w-full h-full p-1 lg:p-4">
+            <div className="flex w-full h-full p-1 pb-8 lg:p-4">
               <div className="flex flex-col items-center rounded-3xl bg-color-white-base shadow-right-bottom border border-color-base w-full h-full py-8 px-8">
                 <div className="flex justify-start items-end w-[95%] font-montserrat font-black text-xl text-color-base tracking-widest border-b border-color-base px-2 pt-2 mb-12">
                   ログイン.
